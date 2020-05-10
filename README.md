@@ -89,6 +89,8 @@ This client uses commands, starting with ':' and followed by the command letter 
 - :p - sends a command to the bot, (if your bot supports) currently a ping
 - :z - sends a message to the bot, command written on bot, tells the bot to identify with nickserv
 - :q - tells the client to quit from server and exit client
+- :o give user op status in the channel (need to be op)
+:o username
 
 #### Keybinds
 - Ctrl + L  - If someone sends a mesage to you while your typing and it interfers with your input this will redraw the line for you

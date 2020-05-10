@@ -70,6 +70,7 @@ function _input() {
         _txt="${line:3}"
         case ${line:1:1} in
 	    a ) AcTion="YES" ; _send "$_txt"; return;;
+	    o ) _send "MODE $channel +o $_txt"; return;;
 	    p ) _send "PRIVMSG $IRC_BOT_NICK :ping " ; return ;;
 	    i ) _imgur; return;;
 	    r ) _Readmalines; return;;
